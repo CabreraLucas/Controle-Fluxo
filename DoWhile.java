@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class While{
+public class DoWhile{
     public static void main(String[]args){
         int x;
 
@@ -8,9 +8,10 @@ public class While{
         System.out.println("Digite um número");
         x=leitura.nextInt();
         
-        while (x < 18){
+        do {
+
             System.out.println("Você não tem permissão para entrar");
             x++;
-        }
+        } while (x < 18);
     }
 }
